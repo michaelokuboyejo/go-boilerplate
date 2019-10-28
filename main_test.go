@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/godog"
-	"github.com/damianopetrungaro/go-boilerplate/features"
+	"github.com/michaelokuboyejo/go-boilerplate/features"
 )
 
 type deferredCall func()

@@ -3,7 +3,7 @@ package log
 import (
 	"os"
 
-	"github.com/damianopetrungaro/go-boilerplate/pkg/log"
+	"github.com/michaelokuboyejo/go-boilerplate/pkg/log"
 	"github.com/sirupsen/logrus"
 )
 

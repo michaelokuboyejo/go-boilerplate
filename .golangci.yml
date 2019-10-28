@@ -1,0 +1,31 @@
+run:
+  tests: true
+  deadline: 5m
+
+linters-settings:
+  errcheck:
+    check-type-assertions: true
+    check-blank: true
+  gocyclo:
+    min-complexity: 20
+  dupl:
+    threshold: 100
+  misspell:
+    locale: US
+  unused:
+    check-exported: false
+  unparam:
+    check-exported: true
+
+linters:
+  enable-all: true
+  disable:
+    - lll
+    - maligned
+    - gochecknoglobals
+    - dogsled
+    - godox # TODO review issues
+    - funlen # TODO review issues
+
+issues:
+  exclude-use-default: false
