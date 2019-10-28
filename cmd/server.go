@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	database "github.com/damianopetrungaro/go-boilerplate/internal/db"
-	"github.com/damianopetrungaro/go-boilerplate/internal/probe"
-	"github.com/damianopetrungaro/go-boilerplate/internal/server"
+	database "github.com/michaelokuboyejo/go-boilerplate/internal/db"
+	"github.com/michaelokuboyejo/go-boilerplate/internal/probe"
+	"github.com/michaelokuboyejo/go-boilerplate/internal/server"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

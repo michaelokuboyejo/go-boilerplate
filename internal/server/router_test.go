@@ -11,7 +11,7 @@ import (
 
 func TestRouter(t *testing.T) {
 
-	tests := []struct {
+	testCases := []struct {
 		scenario string
 		fun      func(t *testing.T)
 	}{
@@ -25,9 +25,9 @@ func TestRouter(t *testing.T) {
 		},
 	}
 
-	for _, test := range tests {
-		t.Run(test.scenario, func(t *testing.T) {
-			test.fun(t)
+	for _, testCase := range testCases {
+		t.Run(testCase.scenario, func(t *testing.T) {
+			testCase.fun(t)
 		})
 	}
 }

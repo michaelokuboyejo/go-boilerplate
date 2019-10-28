@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	logger "github.com/damianopetrungaro/go-boilerplate/internal/log"
+	logger "github.com/michaelokuboyejo/go-boilerplate/internal/log"
 )
 
 func main() {

@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/damianopetrungaro/go-boilerplate/pkg/trace"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/google/uuid"
+	"github.com/michaelokuboyejo/go-boilerplate/pkg/trace"
 	"github.com/sirupsen/logrus"
 )
 
