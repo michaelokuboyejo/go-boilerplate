@@ -7,12 +7,12 @@ import (
 type (
 	// Specification defines the possible configuration values
 	Specification struct {
-		ApplicationName         string `default:"awesome-service"`
-		Debug                   bool   `envconfig:"DEBUG" default:"false"`
-		LogLevel                string `envconfig:"LOG_LEVEL" default:"info"`
-		DatabaseURI             string `envconfig:"DATABASE_URI"`
-		Environment             string `envconfig:"APP_ENVIRONMENT" default:"dev"`
-		Port                    string `envconfig:"PORT" default:"80"`
+		ApplicationName string `default:"awesome-service"`
+		Debug           bool   `envconfig:"DEBUG" default:"false"`
+		LogLevel        string `envconfig:"LOG_LEVEL" default:"info"`
+		DatabaseURI     string `envconfig:"DATABASE_URI"`
+		Environment     string `envconfig:"APP_ENVIRONMENT" default:"dev"`
+		Port            string `envconfig:"PORT" default:"80"`
 	}
 )
 
